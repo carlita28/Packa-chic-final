@@ -26,15 +26,20 @@
 
 
 .redes_sociales {
-    @include flex(row,flex-end,wrap,center);
+    @include flex(row, flex-end, wrap, center);
     padding: 0rem calc-rem(35) 0rem 0rem;
+
     a {
         margin: calc-rem(5);
+        transition: transform 0.3s ease-in-out;
+
         img {
             width: calc-rem(40);
             height: calc-rem(40);
         }
     }
+
+    a:hover {
+        transform: scale(1.5);
+    }
 }
-
-
