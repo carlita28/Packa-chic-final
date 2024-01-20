@@ -1,0 +1,18 @@
+#sobre_nosotros {
+    color: $white-color;
+
+    .desing-image-1 {
+        width: calc-rem(300);
+        height: calc-rem(400);
+        border-radius: calc-rem(15);
+    }
+
+    .boton_leer {
+        margin-top: calc-rem(36);
+        text-align: start;
+    }
+
+    .center-mobile {
+        text-align: start;
+    }
+}

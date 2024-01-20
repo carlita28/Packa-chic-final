@@ -1,0 +1,15 @@
+.contenedor_logos_inicio {
+    text-align: center;
+
+    div {
+        width: 100%;
+    }
+}
+
+.contenedor {
+    @include flex(row,space-between,wrap,center)
+}
+
+.contenedor-cards {
+    @include flex(row,space-evenly,wrap,center)
+}

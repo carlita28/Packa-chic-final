@@ -1,0 +1,9 @@
+.comentario {
+    background-color: $secondary-color;
+    color: $white-color;
+    text-align: center;
+    width: 60%;
+    height: calc-rem(100);
+    border-radius: calc-rem(10);
+    padding: calc-rem(10);
+}

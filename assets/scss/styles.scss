@@ -1,0 +1,60 @@
+@import "./utilities/mixins";
+@import "./utilities/functions";
+@import "./utilities/variables";
+@import "./utilities/maps";
+
+@import "./base/typografias";
+@import "./base/reset";
+
+/* Layouts */
+@import "./layout/header";
+@import "./layout/footer";
+
+/* Componentes */
+@import "./components/logo";
+@import "./components/containers";
+@import "./components/cards";
+@import "./components/comentario";
+@import "./components/formulario";
+
+/*
+* Layouts Pages
+*/
+@import "./layout/pages/inicio";
+@import "./layout/pages/sobreNosotros";
+@import "./layout/pages/servicios";
+@import "./layout/pages/tienda";
+@import "./layout/pages/contacto";
+
+
+/* Web desing responsive*/
+@import "./layout/media/media1024";
+@import "./layout/media/media960";
+@import "./layout/media/media767";
+
+.quit-padding-cols {
+    padding: calc-rem(0);
+}
+
+.mt-sm-2 {
+    margin-top: 0;
+}
+
+.padding-10 {
+    padding: calc-rem(10);
+}
+
+.padding-30 {
+    padding: calc-rem(30);
+}
+
+
+
+
+
+
+
+
+
+
+

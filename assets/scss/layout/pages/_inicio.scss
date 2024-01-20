@@ -1,0 +1,26 @@
+.informacion_inicio {
+    margin-top: calc-rem(40);
+    color: $white-color;
+
+    h1 {
+        font-size: calc-rem(64);
+    }
+
+    div {
+        padding-top: calc-rem(32);
+    }
+
+    h2 {
+        padding-top: calc-rem(32);
+        text-align: start;
+    }
+
+    div button {
+        margin-top: calc-rem(15);
+    }
+}
+
+
+button:hover {
+    transform: translateY(-5px);
+}

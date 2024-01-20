@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1024px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #navbarNav ul {
+        margin: calc-rem(5);
+        gap: 0;
+        border-radius: calc-rem(10);
+    }
+
+    .informacion_inicio {
+        text-align: center;
+
+        h2, div {
+            text-align: center;
+        }
+    }
+
+    #servicios h1 {
+        text-align: center;
+    }
+
+    .end {
+        text-align: center;
+    }
+}

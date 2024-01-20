@@ -1,0 +1,26 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin button-styles {
+    text-decoration: none;
+    color: $white-color;
+    background-color: $secondary-color;
+    border-radius: .5rem;
+    padding: .625rem 1.25rem;
+    border-color: $secondary-color;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+@mixin flex($direction,$justify,$wrap,$align) {
+    display: flex;
+    width: 100%;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+

@@ -1,0 +1,27 @@
+.formulario {
+    color: $white-color;
+    font-family: $font-family;
+
+    h3 {
+        margin-bottom: calc-rem(20);
+    }
+
+    form label {
+        color: $white-color;
+        margin-top: calc-rem(5);
+        margin-bottom: calc-rem(5);
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+        border-radius: .5rem;
+        margin-top: calc-rem(5);
+        margin-bottom: calc-rem(5);
+        border: none;
+    }
+
+    form button {
+        width: 100%;
+    }
+}

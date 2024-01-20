@@ -1,0 +1,322 @@
+/*
+* Busque en google como calcular para no usar el plugin y probar las funciones
+* https://dev.to/nikolab/convert-px-to-rem-using-sass-3-methods-4ep2
+*/
+/* #5477F7;*/
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+input {
+  padding: 0.625rem;
+  width: 6.25rem;
+  border-radius: 0.3125rem;
+  border: none; }
+
+h1, h2, p {
+  font-family: "Wix Madefor Display", sans-serif; }
+
+body {
+  background-color: #4F4CFF;
+  font-family: "Wix Madefor Display", sans-serif; }
+
+button {
+  text-decoration: none;
+  color: white;
+  background-color: #FF80E7;
+  border-radius: .5rem;
+  padding: .625rem 1.25rem;
+  border-color: #FF80E7;
+  transition: transform 0.3s ease-in-out; }
+  button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem; }
+
+/* Layouts */
+.logotipo {
+  width: 16.78125rem;
+  height: 3.5rem;
+  margin-right: auto; }
+
+#navbarNav ul {
+  list-style: none;
+  gap: 4rem;
+  margin: 1.875rem 0 1.875rem;
+  background-color: #FF80E7;
+  border-start-start-radius: 1.875rem;
+  border-bottom-left-radius: 1.875rem;
+  padding: 1.125rem; }
+
+.nav-link {
+  color: white;
+  font-size: 1.25rem; }
+
+.nav-link:hover {
+  color: #4F4CFF; }
+
+.redes_sociales {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0rem 2.1875rem 0rem 0rem; }
+  .redes_sociales a {
+    margin: 0.3125rem; }
+    .redes_sociales a img {
+      width: 2.5rem;
+      height: 2.5rem; }
+
+.pink {
+  background-color: #FF80E7; }
+
+footer {
+  text-align: center; }
+
+.end {
+  text-align: end; }
+
+/* Componentes */
+.logo-section {
+  width: 20rem;
+  height: 12.5rem;
+  margin-right: auto; }
+
+.logo-package {
+  width: 18rem;
+  height: 16rem; }
+
+.logo-package-2 {
+  width: 15rem;
+  height: 12rem; }
+
+.logo-section,
+.logo-package,
+.logo-package-2 {
+  transition: transform 0.3s ease-in-out; }
+
+.logo-section:hover,
+.logo-package:hover,
+.logo-package-2:hover {
+  transform: scale(1.5); }
+
+.contenedor_logos_inicio {
+  text-align: center; }
+  .contenedor_logos_inicio div {
+    width: 100%; }
+
+.contenedor {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+
+.contenedor-cards {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.card {
+  text-align: center;
+  background-color: #0133E3;
+  color: white;
+  padding: 1.25rem; }
+
+.card-img-size {
+  width: 11.25rem;
+  margin: auto; }
+
+.card-footer {
+  color: white; }
+
+.card-packa, #servicios .card-packa {
+  width: 18.75rem;
+  background-color: #0133E3;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 1.25rem;
+  border: 1px solid #0133E3;
+  text-align: center;
+  color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  align-content: center;
+  overflow: hidden; }
+  .card-packa img, #servicios .card-packa img {
+    width: 11.25rem;
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease-in-out; }
+  .card-packa img:hover, #servicios .card-packa img:hover {
+    transform: translateY(-10px); }
+  .card-packa h3, #servicios .card-packa h3 {
+    margin-bottom: 0.75rem; }
+  .card-packa button, #servicios .card-packa button {
+    margin-top: 1rem; }
+
+.comentario {
+  background-color: #FF80E7;
+  color: white;
+  text-align: center;
+  width: 60%;
+  height: 6.25rem;
+  border-radius: 0.625rem;
+  padding: 0.625rem; }
+
+.formulario {
+  color: white;
+  font-family: "Wix Madefor Display", sans-serif; }
+  .formulario h3 {
+    margin-bottom: 1.25rem; }
+  .formulario form label {
+    color: white;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem; }
+  .formulario form input,
+  .formulario form textarea {
+    width: 100%;
+    border-radius: .5rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+    border: none; }
+  .formulario form button {
+    width: 100%; }
+
+/*
+* Layouts Pages
+*/
+.informacion_inicio {
+  margin-top: 2.5rem;
+  color: white; }
+  .informacion_inicio h1 {
+    font-size: 4rem; }
+  .informacion_inicio div {
+    padding-top: 2rem; }
+  .informacion_inicio h2 {
+    padding-top: 2rem;
+    text-align: start; }
+  .informacion_inicio div button {
+    margin-top: 0.9375rem; }
+
+button:hover {
+  transform: translateY(-5px); }
+
+#sobre_nosotros {
+  color: white; }
+  #sobre_nosotros .desing-image-1 {
+    width: 18.75rem;
+    height: 25rem;
+    border-radius: 0.9375rem; }
+  #sobre_nosotros .boton_leer {
+    margin-top: 2.25rem;
+    text-align: start; }
+  #sobre_nosotros .center-mobile {
+    text-align: start; }
+
+#servicios .card-packa {
+  background-color: #ABC1F8;
+  border: none; }
+  #servicios .card-packa h2 {
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+#servicios div p {
+  text-align: center;
+  font-size: 1.25rem; }
+
+#servicios h1 {
+  margin-bottom: 1.25rem; }
+
+#tienda h1 {
+  color: white;
+  padding: 1.875rem;
+  font-size: 2.5rem; }
+
+#contacto .contenedor img {
+  width: 11.25rem;
+  height: 10.3125rem; }
+
+#contacto .contenedor .contactos a img {
+  width: 1.875rem;
+  height: 1.875rem; }
+
+.contactos {
+  font-family: "Wix Madefor Display", sans-serif; }
+  .contactos a {
+    text-decoration: none;
+    color: white; }
+  .contactos .contenedor .contactos a img {
+    width: 1.875rem;
+    height: 1.875rem; }
+
+/* Web desing responsive*/
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; } }
+
+@media only screen and (max-width: 1024px) {
+  #navbarNav ul {
+    margin: 0.3125rem;
+    gap: 0;
+    border-radius: 0.625rem; }
+  .informacion_inicio {
+    text-align: center; }
+    .informacion_inicio h2, .informacion_inicio div {
+      text-align: center; }
+  #servicios h1 {
+    text-align: center; }
+  .end {
+    text-align: center; } }
+
+@media only screen and (max-width: 960px) {
+  .end {
+    text-align: center; }
+  .comentario {
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+    width: 100%; } }
+
+@media only screen and (max-width: 767px) {
+  #servicios h1 {
+    text-align: center; }
+  #navbarNav ul {
+    margin: 0.3125rem;
+    gap: 0;
+    border-radius: 0.625rem; }
+  .logotipo {
+    width: 14.8125rem;
+    height: 3rem;
+    margin-right: auto; }
+  .comentario {
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+    width: 100%; }
+  .center-mobile {
+    text-align: center; }
+  .mt-sm-2 {
+    margin-top: 0.3125rem; }
+  #sobre_nosotros .boton_leer {
+    text-align: center; }
+  .end {
+    text-align: center; } }
+
+.quit-padding-cols {
+  padding: 0rem; }
+
+.mt-sm-2 {
+  margin-top: 0; }
+
+.padding-10 {
+  padding: 0.625rem; }
+
+.padding-30 {
+  padding: 1.875rem; }

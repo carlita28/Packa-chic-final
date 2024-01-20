@@ -1,0 +1,19 @@
+#servicios .card-packa {
+    @extend .card-packa;
+    background-color: #ABC1F8;
+    border: none;
+
+    h2 {
+        color: $black-color;
+        font-family: $font-family-franklin
+    }
+}
+
+#servicios div p {
+    text-align: center;
+    font-size: calc-rem(20);
+}
+
+#servicios h1 {
+    margin-bottom: calc-rem(20);
+}

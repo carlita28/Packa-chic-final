@@ -1,0 +1,41 @@
+@media only screen and (max-width: 767px) {
+    #servicios h1 {
+        text-align: center;
+    }
+
+    #navbarNav ul {
+        margin: calc-rem(5);
+        gap: 0;
+        border-radius: calc-rem(10);
+    }
+
+    .logotipo {
+        width: calc-rem(237);
+        height: calc-rem(48);
+        margin-right: auto;
+    }
+
+    .comentario {
+        margin-top: calc-rem(5);
+        margin-bottom: calc-rem(5);
+        width: 100%;
+    }
+
+    .center-mobile {
+        text-align: center;
+    }
+
+    .mt-sm-2 {
+        margin-top: calc-rem(5);
+    }
+
+    #sobre_nosotros {
+        .boton_leer {
+            text-align: center;
+        }
+    }
+
+    .end {
+        text-align: center;
+    }
+}

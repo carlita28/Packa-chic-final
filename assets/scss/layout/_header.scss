@@ -1,0 +1,40 @@
+.logotipo {
+    width: calc-rem(268.5);
+    height: calc-rem(56);
+    margin-right: auto;
+}
+
+
+#navbarNav ul {
+    list-style: none;
+    gap: calc-rem(64);
+    margin: calc-rem(30) 0 calc-rem(30);
+    background-color: $secondary-color;
+    border-start-start-radius: calc-rem(30);
+    border-bottom-left-radius: calc-rem(30);
+    padding: calc-rem(18);
+}
+
+.nav-link {
+    color: $white-color;
+    font-size: calc-rem(20);
+}
+
+.nav-link:hover {
+    color: $primary-color;
+}
+
+
+.redes_sociales {
+    @include flex(row,flex-end,wrap,center);
+    padding: 0rem calc-rem(35) 0rem 0rem;
+    a {
+        margin: calc-rem(5);
+        img {
+            width: calc-rem(40);
+            height: calc-rem(40);
+        }
+    }
+}
+
+

@@ -1,0 +1,28 @@
+.logo-section {
+    width: calc-rem(320);
+    height: calc-rem(200);
+    margin-right: auto;
+}
+
+.logo-package {
+    width: calc-rem(288);
+    height: calc-rem(256);
+}
+
+.logo-package-2 {
+    width: calc-rem(240);
+    height: calc-rem(192);
+}
+
+
+.logo-section,
+.logo-package,
+.logo-package-2 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-section:hover,
+.logo-package:hover,
+.logo-package-2:hover {
+    transform: scale(1.5);
+}

@@ -1,0 +1,23 @@
+#contacto .contenedor img {
+    width: 11.25rem;
+    height: 10.3125rem;
+}
+
+#contacto .contenedor .contactos a img {
+    width: 1.875rem;
+    height: 1.875rem 
+}
+
+.contactos {
+    font-family: $font-family;
+
+    a {
+        text-decoration: none;
+        color: $white-color;
+    }
+
+    .contenedor .contactos a img {
+        width: calc-rem(30);
+        height: calc-rem(30);
+    }
+}
