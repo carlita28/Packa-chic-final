@@ -2,6 +2,11 @@
     .navbar-expand-lg .navbar-collapse {
         justify-content: flex-end;
     }
+
+
+    .mt-sm-2 {
+        margin-top: 0;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -14,10 +19,12 @@
     .informacion_inicio {
         text-align: center;
 
-        h2, div {
+        h2,
+        div {
             text-align: center;
         }
     }
+
 
     #servicios h1 {
         text-align: center;

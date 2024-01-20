@@ -261,7 +261,9 @@ button:hover {
 /* Web desing responsive*/
 @media only screen and (min-width: 1024px) {
   .navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end; } }
+    justify-content: flex-end; }
+  .mt-sm-2 {
+    margin-top: 0; } }
 
 @media only screen and (max-width: 1024px) {
   #navbarNav ul {
@@ -270,7 +272,8 @@ button:hover {
     border-radius: 0.625rem; }
   .informacion_inicio {
     text-align: center; }
-    .informacion_inicio h2, .informacion_inicio div {
+    .informacion_inicio h2,
+    .informacion_inicio div {
       text-align: center; }
   #servicios h1 {
     text-align: center; }
@@ -311,9 +314,6 @@ button:hover {
 
 .quit-padding-cols {
   padding: 0rem; }
-
-.mt-sm-2 {
-  margin-top: 0; }
 
 .padding-10 {
   padding: 0.625rem; }
