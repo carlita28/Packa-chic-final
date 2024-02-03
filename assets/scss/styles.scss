@@ -25,12 +25,24 @@
 @import "./layout/pages/servicios";
 @import "./layout/pages/tienda";
 @import "./layout/pages/contacto";
+@import "./layout/pages/404";
 
 
 /* Web desing responsive*/
 @import "./layout/media/media1024";
 @import "./layout/media/media960";
 @import "./layout/media/media767";
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
 
 .quit-padding-cols {
     padding: calc-rem(0);
@@ -44,14 +56,3 @@
 .padding-30 {
     padding: calc-rem(30);
 }
-
-
-
-
-
-
-
-
-
-
-

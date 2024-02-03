@@ -1,4 +1,10 @@
 @media only screen and (max-width: 767px) {
+    #contacto .contenedor img {
+        margin: auto;
+        width: 9.375rem;
+        height: 7.1875rem;
+    }
+
     #servicios h1 {
         text-align: center;
     }
@@ -38,5 +44,10 @@
 
     .end {
         text-align: center;
+    }
+
+    .redes_sociales {
+        justify-content: center;
+        padding-left: .9375rem;
     }
 }

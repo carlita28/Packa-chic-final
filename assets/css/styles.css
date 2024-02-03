@@ -97,6 +97,10 @@ footer {
   width: 15rem;
   height: 12rem; }
 
+#logo-404 {
+  width: 28.125rem;
+  height: 21.875rem; }
+
 .logo-section,
 .logo-package,
 .logo-package-2 {
@@ -261,6 +265,23 @@ button:hover {
     width: 1.875rem;
     height: 1.875rem; }
 
+.container_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0; }
+
+.container-main-404 {
+  text-align: center; }
+  .container-main-404 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; }
+  .container-main-404 p {
+    font-size: 18px;
+    color: #ffffff; }
+
 /* Web desing responsive*/
 @media only screen and (min-width: 1024px) {
   .navbar-expand-lg .navbar-collapse {
@@ -292,6 +313,10 @@ button:hover {
     width: 100%; } }
 
 @media only screen and (max-width: 767px) {
+  #contacto .contenedor img {
+    margin: auto;
+    width: 9.375rem;
+    height: 7.1875rem; }
   #servicios h1 {
     text-align: center; }
   #navbarNav ul {
@@ -313,7 +338,19 @@ button:hover {
   #sobre_nosotros .boton_leer {
     text-align: center; }
   .end {
-    text-align: center; } }
+    text-align: center; }
+  .redes_sociales {
+    justify-content: center;
+    padding-left: .9375rem; } }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0; }
+
+main {
+  flex: 1; }
 
 .quit-padding-cols {
   padding: 0rem; }
